@@ -1,0 +1,26 @@
+<%- include('./includes/head.ejs') %>
+</head>
+
+<body>
+<main>
+    <section>
+        <div class="eventData">
+            <form action="">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Enter title of remainder..">
+                  </div>
+                  <div class="mb-3">
+                    <label for="date" class="form-label">Date</label>
+                    <input type="date" class="form-control" id="date" placeholder="Enter date">
+                  </div>
+                  <div class="mb-3">
+                    <button type="submit" id="submit" class="btn btn-primary">Add</button>
+                  </div>
+            </form>
+        </div>
+        <div id="calendar"></div>
+    </section>
+    
+</main>
+    <%- include('./includes/end.ejs') %>
